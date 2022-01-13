@@ -1,0 +1,13 @@
+[
+	{
+		"URL": "url preprod"
+	},
+	{
+		"login": "imen123"
+	},
+	{
+		"ShortWait": "2000",
+		"MediumWait": "3000",
+		"HighWait": "4000"
+	}
+]

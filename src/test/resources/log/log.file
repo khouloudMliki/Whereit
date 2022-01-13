@@ -1,0 +1,4 @@
+2021-11-20 12:35:29,409 - com.e2e.whereit.page.AbstractPage - INFO - Je me connecte à l'application Whereit-test
+2021-11-20 12:35:39,883 - com.e2e.whereit.page.AbstractPage - INFO - Je saisis le username
+2021-11-20 12:35:39,977 - com.e2e.whereit.page.AbstractPage - INFO - Je saisis le password
+2021-11-20 12:35:40,059 - com.e2e.whereit.page.AbstractPage - INFO - je clique sur le bouton Valider
