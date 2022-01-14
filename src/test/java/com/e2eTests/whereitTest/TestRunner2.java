@@ -19,8 +19,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "src/specs/features" }, plugin = { "pretty", "html:target/cucumber-html-report",
 		"json:target/cucumber.json",
-		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Whereit.html" }, snippets = SnippetType.CAMELCASE, tags = {
-				("@connexion") }, monochrome = true)
+		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Whereit.html" }, snippets = SnippetType.CAMELCASE, monochrome = true)
 
 public class TestRunner2 extends AbstractTestNGCucumberTests {
 
