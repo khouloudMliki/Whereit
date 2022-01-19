@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = { "src/specs/features" },
 		// glue = {""},
 		plugin = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber.json",
-				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Whereit.html" }, snippets = SnippetType.CAMELCASE, monochrome = true)
+				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Whereit.html" }, snippets = SnippetType.CAMELCASE, tags = {("@connexion") },monochrome = true)
 
 public class testRunner {
 
